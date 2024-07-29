@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+*{
+  font-family: 'Kanit', sans-serif;
+}
+
+.container {
+    margin-top: 10%;
+    width: fit-content;
+}
+
+.btn-custom {
+    color: #ffffff;
+    background-color: #344b8d;
+    width: 100%;
+    cursor: pointer; /* เปลี่ยน cursor เป็น pointer เมื่อ hover */
+    transition: all 0.5s ease; /* เพิ่ม transition เพื่อให้มีเอฟเฟกต์เมื่อ hover */
+    font-size: 18px;
+}
+
+.btn-custom:hover  {
+    color: #344b8d;
+    background-color: #ffffff;
+    width: 100%;
+    border-color: #344b8d;
+    font-size: 18px;
+}
+
+.footer {
+    position: fixed; /* เพื่อให้ footer อยู่ที่ด้านล่างสุดของหน้า */
+    left: 0;
+    bottom: 0;
+    background-color: #344b8d; /* สีพื้นหลังของ footer */
+    color: #ffffff; /* สีข้อความ */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    width: 100%;
+    padding: 20px 0;
+    
+}
